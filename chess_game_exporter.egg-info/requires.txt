@@ -1,0 +1,13 @@
+pandas
+psycopg2
+
+[dev]
+autopep8
+black
+flake8
+flake8-builtins
+flake8-isort
+flake8-spellcheck
+flake8-variables-names
+pytest
+rope

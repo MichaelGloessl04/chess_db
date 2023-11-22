@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: chess-game-exporter
+Version: 1.0.0
+Summary: import chess moves from postgresql db
+Home-page: https://github.com
+Author: Michael Glössl
+Author-email: mgloessl04@gmail.com
+Provides-Extra: dev

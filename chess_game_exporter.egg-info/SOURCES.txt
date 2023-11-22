@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+chess_csv_exporter/__init__.py
+chess_csv_exporter/chess_csv_exporter.py
+chess_game_exporter.egg-info/PKG-INFO
+chess_game_exporter.egg-info/SOURCES.txt
+chess_game_exporter.egg-info/dependency_links.txt
+chess_game_exporter.egg-info/not-zip-safe
+chess_game_exporter.egg-info/requires.txt
+chess_game_exporter.egg-info/top_level.txt
+chess_move_importer/__init__.py
+chess_move_importer/chess_move_importer.py
