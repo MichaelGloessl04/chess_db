@@ -14,7 +14,7 @@ class ChessMoveImporter:
         Raises:
             TypeError: raised if section is not a str.
         """
-        if type(section) is not str:
+        if not isinstance(section, str):
             raise TypeError(
                 f'section is {type(section)} but should be {str}'
             )

@@ -11,7 +11,7 @@ class ChessCSVExporter:
         Args:
             game_data (dict): a dict filled with chess moves.
         """
-        if type(game_data) is not dict:
+        if not isinstance(game_data, dict):
             raise TypeError(
                 f'section is {type(game_data)} but should be {dict}'
             )
@@ -27,7 +27,7 @@ class ChessCSVExporter:
                                         it already exists.
                                         Defaults to True.
         """
-        if type(export_path) is not str:
+        if not isinstance(export_path, str):
             raise TypeError(
                 f'section is {type(export_path)} but should be {str}'
             )
